@@ -8,13 +8,18 @@ export default defineConfig({
     // https://vitepress.dev/reference/default-theme-config
     nav: [
       { text: "Home", link: "/" },
-      { text: "Handbook", link: "/syllabus" },
+      { text: "Handbook", link: "/description" },
     ],
 
     sidebar: [
       {
         text: "Getting Started",
-        items: [{ text: "Syllabus", link: "/syllabus" }],
+        items: [
+          { text: "Description", link: "/description" },
+          { text: "Resources", link: "/resources" },
+          { text: "Policies", link: "/policies" },
+          { text: "Schedule", link: "/schedule" },
+        ],
       },
       {
         text: "Homeworks",
