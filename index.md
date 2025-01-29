@@ -2,13 +2,13 @@
 layout: home
 
 hero:
-  name: "High-Frequency Trading Technologies"
-  text: ""
+  name: "CSE 40438"
+  text: "High-Frequency Trading Technologies"
   tagline: Course homepage
   actions:
     - theme: brand
       text: Get Started
-      link: /syllabus
+      link: /description
     - theme: alt
       text: GitHub
       link: "https://github.com/ndhft"
