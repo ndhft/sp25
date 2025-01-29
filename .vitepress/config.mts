@@ -1,4 +1,4 @@
-import { defineConfig } from 'vitepress'
+import { defineConfig } from "vitepress";
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
@@ -7,22 +7,28 @@ export default defineConfig({
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [
-      { text: 'Home', link: '/' },
-      { text: 'Docs', link: '/syllabus' }
+      { text: "Home", link: "/" },
+      { text: "Handbook", link: "/syllabus" },
     ],
 
     sidebar: [
       {
-        text: 'Docs',
+        text: "Getting Started",
+        items: [{ text: "Syllabus", link: "/syllabus" }],
+      },
+      {
+        text: "Homeworks",
+        collapsed: false,
         items: [
-          { text: 'Syllabus', link: '/syllabus' },
-        ]
-      }
+          { text: "Homework 0", link: "/hw0" },
+          { text: "Homework 1", link: "/hw1" },
+        ],
+      },
     ],
 
     socialLinks: [
-      { icon: 'github', link: 'https://github.com/ndhft' },
-      { icon: 'canvas', link: 'https://canvas.nd.edu/courses/109765' },
-    ]
-  }
-})
+      { icon: "github", link: "https://github.com/ndhft" },
+      { icon: "canvas", link: "https://canvas.nd.edu/courses/109765" },
+    ],
+  },
+});
