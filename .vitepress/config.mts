@@ -2,27 +2,27 @@ import { defineConfig } from 'vitepress'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
-  title: "CSE 40438 - High-Frequency Trading Technologies - Spring 2025",
-  description: "Course homepage for CSE 40438, Spring 2025 semester.",
+  title: "High-Frequency Trading Technologies - SP25",
+  description: "",
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [
       { text: 'Home', link: '/' },
-      { text: 'Examples', link: '/markdown-examples' }
+      { text: 'Docs', link: '/syllabus' }
     ],
 
     sidebar: [
       {
-        text: 'Examples',
+        text: 'Docs',
         items: [
-          { text: 'Markdown Examples', link: '/markdown-examples' },
-          { text: 'Runtime API Examples', link: '/api-examples' }
+          { text: 'Syllabus', link: '/syllabus' },
         ]
       }
     ],
 
     socialLinks: [
-      { icon: 'github', link: 'https://github.com/vuejs/vitepress' }
+      { icon: 'github', link: 'https://github.com/ndhft' },
+      { icon: 'canvas', link: 'https://canvas.nd.edu/courses/109765' },
     ]
   }
 })

@@ -1,25 +1,23 @@
 ---
-# https://vitepress.dev/reference/default-theme-home-page
 layout: home
 
 hero:
-  name: "CSE 40438 - High-Frequency Trading Technologies - Spring 2025"
-  text: "Course homepage for CSE 40438, Spring 2025 semester."
-  tagline: My great project tagline
+  name: "High-Frequency Trading Technologies"
+  text: ""
+  tagline: Course homepage
   actions:
     - theme: brand
-      text: Markdown Examples
-      link: /markdown-examples
+      text: Get Started
+      link: /syllabus
     - theme: alt
-      text: API Examples
-      link: /api-examples
+      text: GitHub
+      link: "https://github.com/ndhft"
+    - theme: alt
+      text: Canvas
+      link: "https://canvas.nd.edu/courses/109765"
 
-features:
-  - title: Feature A
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature B
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature C
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
+# features:
+#   - title: Feature A
+#     details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
 ---
 
